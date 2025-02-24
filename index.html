@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <h3>Muhammad Bilal</h3>
+        <div class="Class_for_Mobile">
+            <a href="#Home">About Me</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Recomendations">Recomendations</a>
+        </div>
+        <img onclick="
+        displayMenu()" class="menuBar" src="Pictures_Icons/icons8-menu-24.png" alt="">
+    </nav>
+        <div class="pop-up">
+            <p>Thanks for leaving a recommendation!</p>
+            <button onclick="
+            display_none() ">Ok</button>
+        </div>
+<section class="Home" id="Home">
+    <div>
+        <h1>Hi, <br> I'm Muhammad Bilal!!</h1>
+        <p>I am a frontend Developer with 2 years of experience and presentation layers. I have worked on applications and websites deployed on my Github page. Also I've worked on WordPress while I was a student and have a bunch of projects.</p>
+    </div>
+    <img src="Pictures_Icons/Profile.jpg" alt="">
+</section>
+<section class="Skills" id="Skills">
+    <h1>Skills</h1>
+    <div class="languages">
+        <div class="language">
+            <img src="Pictures_Icons/icons8-html.svg" alt="">
+            <h2>HTML</h2>
+            <h3>2 years experience</h3>
+        </div>
+        <div class="language">
+            <img src="Pictures_Icons/icons8-javascript.svg" alt="">
+            <h2>JavaScript</h2>
+            <h3>1.5 years experience</h3>
+        </div>
+        <div class="language">
+            <img src="Pictures_Icons/icons8-java.svg" alt="">
+            <h2>Java</h2>
+            <h3>.5 years experience</h3>
+        </div>
+        <div class="language">
+            <img src="Pictures_Icons/icons8-react-native.svg" alt="">
+            <h2>React</h2>
+            <h3>1 years experience</h3>
+        </div>
+        <div class="language">
+            <img src="Pictures_Icons/icons8-node-js.svg" alt="">
+            <h2>Node.js</h2>
+            <h3>1 years experience</h3>
+        </div>
+        <div class="language">
+            <img src="Pictures_Icons/icons8-css.svg" alt="">
+            <h2>CSS</h2>
+            <h3>2 years experience</h3>
+        </div>
+    </div>
+</section>
+<section class="Project" id="Projects">
+    <h1>Projects</h1>
+   <div class="Project-content">
+    <div class="chatbot">
+        <h2>Chatbot</h2>
+        <ul><li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS and JavaScript</li></ul>
+    </div>
+    <div class="chatbot">
+        <h2>Sentiment Analyzer</h2>
+        <ul><li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM</li></ul>
+    </div>
+    <div class="chatbot">
+        <h2>Fashion Website</h2>
+        <ul><li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping payment gateway.</li></ul>
+    </div>
+   </div>
+</section>
+<section class="Skills" id="Recomendations">
+    <h1>Recomendations</h1>
+    <div class="languages">
+        <div class="content">
+            <p>" Jane is a very quick learner and quickly grasps key concentps of Wen development. She got a great attitude & she is an excellent team player. She has curious mind and asks the right question. She takes initiative within a team and has potentials to lead the team. "</p>
+        </div>
+        <div class="content">
+            <p>" Working with Jane has been an awesome experience. She is highly knowledgable and always goes the extra step to make sure everything is right. For any future projects that need her expertise I would definitely want to work with her again. "</p>
+        </div>
+        <div class="content">
+            <p>" I had worked along with my university, I was a great developer when used to work during my university. She was my teacher and I used to learn from her. I have been her fan while working with her. "</p>
+        </div>
+    </div>
+    <div class="form">
+        <h1>Leave a Recomendation</h1>
+        <input type="text" name="" placeholder="Name (Optional)" class="name-input">
+        <textarea name="" id="" placeholder="Message"></textarea>
+        <button class="submit" 
+        onclick="
+        submit();
+         submitToWhatsapp()">Submit</button>
+    </div>
+</section>
+   <script src="script.js"></script>
+</body>
+</html>

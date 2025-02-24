@@ -1,0 +1,68 @@
+# Portfolio Website - Muhammad Bilal
+# Portfolio Screenshot (Optional: Add a screenshot of your portfolio here)
+
+
+# 📌  Overview
+    Welcome to my personal portfolio website! This platform serves as a digital resume, showcasing my skills, projects, and recommendations. It’s designed to provide an interactive and engaging experience for visitors, allowing them to explore my work and leave recommendations.
+
+# 🎨  Features
+    Responsive Design: Optimized for both desktop and mobile users.
+
+    Smooth Navigation: Easy-to-navigate sections for a seamless user experience.
+
+    Projects Section: Highlights my past work with detailed descriptions and links.
+
+    Recommendations Form: Visitors can leave recommendations directly on the site.
+
+    Interactive Elements: Enhanced with JavaScript for dynamic content and interactivity.
+
+# 🛠️ Technologies Used
+    HTML5: The backbone of the website’s structure.
+
+    CSS3: Used for styling and creating a visually appealing layout.
+
+    JavaScript: Powers interactivity and dynamic content.
+
+    React: Utilized in some of my projects (as mentioned in my skills).
+
+    Node.js: Backend-related work (if applicable).
+
+# 🚀 Setup Instructions
+    To run this project locally, follow these steps:
+
+    Clone the repository:
+
+    bash
+    Copy
+    git clone https://github.com/your-username/portfolio-website.git
+    Navigate to the project folder:
+
+    bash
+    Copy
+    cd portfolio-website
+    Open index.html in your browser:
+
+    Simply double-click the index.html file or open it via your browser's "Open File" option.
+
+📁 Project Structure
+Copy
+portfolio-website/
+│── index.html           # Main HTML file
+│── style.css            # Desktop styles
+│── mobile.css           # Mobile-specific styles
+│── script.js            # JavaScript functionality
+│── Pictures_Icons/      # Images and icons
+└── README.md            # Project documentation
+📷 Screenshots (Optional)
+(Include relevant screenshots here to showcase your portfolio design.)
+
+📬 Contact
+If you have any questions, feedback, or would like to collaborate, feel free to reach out:
+
+Email: your.email@example.com
+
+GitHub: github.com/your-username
+
+LinkedIn: linkedin.com/in/your-profile
+
+This portfolio is a living project, continuously evolving as I work on new projects and improve my skills. Thank you for visiting! 🎉
